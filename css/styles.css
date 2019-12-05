@@ -3,10 +3,14 @@
     background-color: black;
     background-image: url('../images/backgrounds/h_img.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
     text-align: center;
 }
 .second-section {
     text-align: center;
     background-color: white;
+}
+.third-section {
+    text-align: center;
+    background-image: url('../images/backgrounds/s_image.jpg');
+    padding: 70px;
 }
