@@ -15,3 +15,18 @@
     padding: 70px;
     color: white;
 }
+.fourth-section, .fifth-section {
+    text-align: center;
+}
+.sixth-section {
+    padding-top: 35px;
+    padding-bottom: 80px;
+    background-image: url('../images/backgrounds/c_image.jpg');
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea, button {
+    background: transparent;
+}
+::placeholder {
+    color: white;
+}
