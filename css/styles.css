@@ -37,3 +37,9 @@ input[type="text"], input[type="email"], textarea, button {
 footer {
     text-align: center;
 }
+.fluid {
+    max-width: 100%;
+    height: 80%;
+    margin: 30px;
+    padding: 10px;
+  }  
