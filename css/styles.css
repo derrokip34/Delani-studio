@@ -34,3 +34,6 @@ input[type="text"], input[type="email"], textarea, button {
     display: none;
     cursor: pointer;
 }
+footer {
+    text-align: center;
+}
