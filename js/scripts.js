@@ -12,13 +12,14 @@ $(document).ready(function() {
         $(".img3").toggle()
     })
     $("#submit").click(function(e){
-        var name = $("#contact-name").val()
+        var name = $("#user-name").val()
+        var email = $("#user-email").val()
         if(name == "") {
             alert("Enter your name")
-        }else{
-            alert("We have received your message," + name + ", thank you")
-            }
-            e.preventDefault()
+        }elseif(email == "") {
+            alert("Enter your email")
+        }elseif {
+            alert("Thank you your message has been received, "+ name)
         }
       });
 })
