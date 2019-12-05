@@ -24,10 +24,10 @@
     background-image: url('../images/backgrounds/c_image.jpg');
     text-align: center;
 }
-input[type="text"], input[type="email"], textarea, button {
+input[type="text"], input[type="email"], textarea, #submit {
     background: transparent;
 }
-::placeholder {
+::placeholder, button {
     color: white;
 }
 .hide1, .hide2, .hide3 {
