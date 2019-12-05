@@ -11,4 +11,10 @@ $(document).ready(function() {
         $(".hide3").toggle()
         $(".img3").toggle()
     })
+    $("#submit").click(function(e){
+        var name = $("#contact-name").val()
+        if(name == "") {
+            alert("Enter your name")
+        }
+      });
 })
