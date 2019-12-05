@@ -30,3 +30,7 @@ input[type="text"], input[type="email"], textarea, button {
 ::placeholder {
     color: white;
 }
+.hide1, .hide2, .hide3 {
+    display: none;
+    cursor: pointer;
+}
