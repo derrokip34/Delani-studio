@@ -15,6 +15,10 @@ $(document).ready(function() {
         var name = $("#contact-name").val()
         if(name == "") {
             alert("Enter your name")
+        }else{
+            alert("We have received your message," + name + ", thank you")
+            }
+            e.preventDefault()
         }
       });
 })
