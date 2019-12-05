@@ -11,15 +11,9 @@ $(document).ready(function() {
         $(".hide3").toggle()
         $(".img3").toggle()
     })
-    $("#submit").click(function(e){
-        var name = $("#user-name").val()
-        var email = $("#user-email").val()
-        if(name == "") {
-            alert("Enter your name")
-        }elseif(email == "") {
-            alert("Enter your email")
-        }elseif {
-            alert("Thank you your message has been received, "+ name)
-        }
-      });
+    $("#submit").click(function(e) {
+        var name = $("#username").val()
+        e.preventDefault()
+        alert(name + ", we have received your message")
+    })
 })
