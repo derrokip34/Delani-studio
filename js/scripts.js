@@ -7,7 +7,7 @@ $(document).ready(function() {
         $(".hide2").toggle()
         $(".img2").toggle()
     })
-    $(".project").click(function() {
+    $(".product").click(function() {
         $(".hide3").toggle()
         $(".img3").toggle()
     })
