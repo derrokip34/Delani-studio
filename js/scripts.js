@@ -13,7 +13,14 @@ $(document).ready(function() {
     })
     $("#submit").click(function(e) {
         var name = $("#username").val()
+        var email = $("#user-email").val()
+        var message = $("contact-message").val()
+
+        if(name == "" || email == "" || message == "") {
+            alert("Fill the form")
+        } else{
+            alert(name + ", we have received your message. Thank you")
+        }
         e.preventDefault()
-        alert(name + ", we have received your message")
     })
 })
