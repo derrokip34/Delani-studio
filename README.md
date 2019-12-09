@@ -31,7 +31,8 @@ This is Delani Studio Website. It contains information about Delani Studio, thei
 ## BDD
 The webpage is required to do the following:
 - Provide a description when the 'What we do' icons are clicked
-- Pop an alert after submitting your contact info
+- Pop an alert after submitting your contact information
+- Show project name when hovering images in portfolio section
 
 ## Contact Information
 To contact me you can reach me on my [email](derrickip34@gmail.com)
