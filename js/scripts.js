@@ -23,4 +23,10 @@ $(document).ready(function() {
         }
         e.preventDefault()
     })
+    $(".image").hover(function(){
+        $(this).find(".project-name").fadeIn()
+    }, function(){
+        $(this).find(".project-name").fadeOut()
+    }
+    )
 })
