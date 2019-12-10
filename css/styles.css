@@ -73,3 +73,5 @@ h3 {
     color: white;
     font-weight: bold;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+}
